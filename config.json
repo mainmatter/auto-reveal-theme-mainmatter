@@ -1,0 +1,8 @@
+{
+  "transition": "none",
+  "backgroundTransition": "none",
+  "width": 1280,
+	"height": 720,
+  "margin": 0.1,
+  "display": "flex"
+}
