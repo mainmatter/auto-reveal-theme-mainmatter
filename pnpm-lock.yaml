@@ -1,5 +1,22 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@yukaii/github-highlightjs-themes':
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  '@yukaii/github-highlightjs-themes@1.0.0':
+    resolution: {integrity: sha512-4TpQ3GUmh7Ech16o3aDcU/2fG/mNDvYKuItM+Pj/zT36CtR8cS4z3+Yis/GqN/JybWZKFSv8c+SIHilOIb4mzw==}
+
+snapshots:
+
+  '@yukaii/github-highlightjs-themes@1.0.0': {}
