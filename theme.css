@@ -322,13 +322,6 @@ body {
 }
 
 /*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-.reveal .controls {
-  color: #13daec;
-}
-
-/*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
@@ -391,9 +384,12 @@ body {
 }
 
 /* mainmatter specific stuff */
+.reveal .controls {
+  color: black
+}
 
 .backgrounds .slide-background-content {
-  box-shadow: inset -50px 0 #6200ee;
+  box-shadow: inset -120px 0 #6200ee;
 }
 
 .blur-background .slide-background-content {
