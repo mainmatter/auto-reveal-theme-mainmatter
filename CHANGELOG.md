@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2024-07-22)
+
+auto-reveal-theme-mainmatter 0.1.2 (patch)
+
+#### :bug: Bug Fix
+* `auto-reveal-theme-mainmatter`
+  * [#6](https://github.com/mansona/auto-reveal-theme-mainmatter/pull/6) go back to having a smaller sidebar ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2024-07-18)
 
 auto-reveal-theme-mainmatter 0.1.1 (patch)

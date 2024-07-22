@@ -2,8 +2,8 @@
   "solution": {
     "auto-reveal-theme-mainmatter": {
       "impact": "patch",
-      "oldVersion": "0.1.0",
-      "newVersion": "0.1.1",
+      "oldVersion": "0.1.1",
+      "newVersion": "0.1.2",
       "constraints": [
         {
           "impact": "patch",
@@ -13,5 +13,5 @@
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2024-07-18)\n\nauto-reveal-theme-mainmatter 0.1.1 (patch)\n\n#### :bug: Bug Fix\n* `auto-reveal-theme-mainmatter`\n  * [#4](https://github.com/mansona/auto-reveal-theme-mainmatter/pull/4) fix sidebar ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+  "description": "## Release (2024-07-22)\n\nauto-reveal-theme-mainmatter 0.1.2 (patch)\n\n#### :bug: Bug Fix\n* `auto-reveal-theme-mainmatter`\n  * [#6](https://github.com/mansona/auto-reveal-theme-mainmatter/pull/6) go back to having a smaller sidebar ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
 }
