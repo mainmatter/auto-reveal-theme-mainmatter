@@ -385,11 +385,12 @@ body {
 
 /* mainmatter specific stuff */
 .reveal .controls {
-  color: black
+  color: black;
+  right: calc(30px + var(--r-controls-spacing));
 }
 
 .backgrounds .slide-background-content {
-  box-shadow: inset -120px 0 #6200ee;
+  box-shadow: inset -30px 0 #6200ee;
 }
 
 .blur-background .slide-background-content {
