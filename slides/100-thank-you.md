@@ -1,4 +1,4 @@
-<!-- .slide: class="closing" data-background-image="/split-background.png" -->
+<!-- .slide: class="closing" -->
 
 # Thank you all!
 
