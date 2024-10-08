@@ -1,4 +1,4 @@
-<!-- .slide: class="introduction blur-background" data-background-image="/workshop.webp" -->
+<!-- .slide: class="introduction" -->
 
 # Amazing Title
 
