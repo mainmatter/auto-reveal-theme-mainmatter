@@ -1,0 +1,7 @@
+# Unlabeled Changes
+
+* `auto-reveal-theme-mainmatter`
+  * [#13](https://github.com/mainmatter/auto-reveal-theme-mainmatter/pull/13) Include CoreSans WOFF2 files, taken from mainmatter/mainmatter.com repo ([@hdoordt](https://github.com/hdoordt))
+
+
+*Cannot plan release until the above changes are labeled*.
