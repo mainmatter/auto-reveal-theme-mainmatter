@@ -10,21 +10,21 @@
   font-family: CoreSans;
   font-weight: 400;
   font-style: normal;
-  src: local("CoreSansA45Regular");
+  src: url("./fonts/CoreSansA45Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: CoreSans;
   font-weight: 400;
   font-style: italic;
-  src: local("CoreSansA45Regular-Italic");
+  src: url("./fonts/CoreSansA45It.woff2") format("woff2");
 }
 
 @font-face {
   font-family: CoreSans;
   font-weight: 500;
   font-style: normal;
-  src: local("CoreSansA55Medium");
+  src: url("./fonts/CoreSansA55Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -38,7 +38,7 @@
   font-family: CoreSans;
   font-weight: 700;
   font-style: normal;
-  src: local("CoreSansA65Bold");
+  src: url("./fonts/CoreSansA65Bold.woff2") format("woff2");
 }
 
 @font-face {
