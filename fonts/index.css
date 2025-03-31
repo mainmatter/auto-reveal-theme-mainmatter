@@ -1,0 +1,41 @@
+@font-face {
+	font-family: CoreSans;
+	font-weight: 400;
+	font-style: normal;
+	src: url("./CoreSansA45Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: CoreSans;
+	font-weight: 400;
+	font-style: italic;
+	src: url("./CoreSansA45It.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: CoreSans;
+	font-weight: 500;
+	font-style: normal;
+	src: url("./CoreSansA55Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: CoreSans;
+	font-weight: 500;
+	font-style: italic;
+	src: local("CoreSansA55Medium-Italic");
+}
+
+@font-face {
+	font-family: CoreSans;
+	font-weight: 700;
+	font-style: normal;
+	src: url("./CoreSansA65Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: CoreSans;
+	font-weight: 700;
+	font-style: italic;
+	src: local("CoreSansA65Bold-Italic");
+}

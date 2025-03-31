@@ -1,0 +1,24 @@
+:root {
+	--black: #000000;
+	--purple: #6200ee;
+	--yellow: #ffc400;
+	--aqua: #02ceba;
+	--blue: #307fee;
+	--red: #e04e39;
+	--dark: #333333;
+	--mid: #878787;
+	--light: #cfcece;
+	--lighter: #eeeeee;
+	--white: #ffffff;
+
+	--bg: light-dark(var(--white), var(--black));
+	--fg: light-dark(var(--black), var(--white));
+	--bg-inverted: var(--black);
+	--fg-inverted: var(--white);
+
+	--primary: var(--purple);
+	--secondary: var(--aqua);
+
+	--controls: var(--purple);
+	--logo: light-dark(var(--purple), var(--white));
+}

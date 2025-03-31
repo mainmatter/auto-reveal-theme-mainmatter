@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+	font-synthesis: none;
+	box-sizing: border-box;
+}
+
+* {
+	font-synthesis: none;
+}
+
+html,
+body {
+	background: var(--bg);
+	color: var(--fg);
+	font-family: CoreSans, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+::selection {
+	color: #fff;
+	background: color-mix(in oklab, var(--aqua), transparent 50%);
+	text-shadow: none;
+}
+
+:root {
+	color-scheme: light dark;
+}
