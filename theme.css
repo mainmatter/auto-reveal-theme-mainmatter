@@ -27,6 +27,7 @@
 
 .reveal .progress {
 	color: var(--primary);
+	height: 3px;
 }
 
 .reveal .progress span {
@@ -45,7 +46,7 @@
 
 	display: flex;
 	flex-direction: column;
-	padding: calc(var(--ss-scale) * (21px + 30px)) calc(var(--ss-scale) * 20px) calc(var(--ss-scale) * 20px);
+	padding: calc(var(--ss-scale) * (21px + 30px)) 0;
 	height: 100%;
 	place-content: center;
 }
@@ -53,7 +54,7 @@
 /* Inverted pages */
 
 :root:has(.has-dark-background.present),
-:root:has(.present .hljs) {
+:root:has(.present > pre > .hljs) {
 	--fg: var(--fg-inverted);
 	--bg: var(--bg-inverted);
 	--controls: var(--white);
@@ -119,7 +120,7 @@ h6 {
 
 p {
 	margin-inline: auto;
-	max-width: 42em;
+	max-width: 24em;
 }
 
 strong,
@@ -331,6 +332,7 @@ iframe {
 	max-width: 100%;
 	max-height: 100%;
 	object-fit: contain;
+	vertical-align: bottom;
 }
 
 section img {
@@ -411,6 +413,55 @@ section[data-layout-start]:after {
 	aspect-ratio: 140/21;
 }
 
+/* Layout: Single image */
+
+section:has(>:only-child > img) {
+	color: red
+}
+
+section:has(>:only-child > img) p {
+	display: contents;
+}
+
+section:has(>:only-child > img) img {
+	display: block;
+	margin-inline: auto;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	box-shadow: none;
+}
+
+/* Layout: Split */
+
+.reveal .slides .present[data-layout-split] {
+	padding-right: calc(50% + 40px);
+	padding-left: 0;
+}
+
+.reveal .slides .present[data-layout-split]:has(* + p>img:only-child) {
+	padding-left: calc(50% + 40px);
+	padding-right: 0;
+}
+
+[data-layout-split]:has(p>img:only-child) p:has(>img:only-child) {
+	position: absolute;
+	display: flex;
+	inset: 0 0 0 calc(50% + 40px);
+	margin: 0;
+}
+
+[data-layout-split]:has(* + p>img:only-child) p:has(>img:only-child) {
+	position: absolute;
+	display: flex;
+	inset: 0 calc(50% + 40px) 0 0;
+	margin: 0;
+}
+
+[data-layout-split]:has(p>img:only-child) p:has(>img:only-child) img {
+	box-shadow: none;
+}
+
 /* Layout: Code */
 
 .present:has(> pre > .hljs) :is(h1, h2, h3, h4, h5, h6):first-child {
@@ -422,8 +473,7 @@ section[data-layout-start]:after {
 /* Layout: Profile */
 
 [data-layout-profile] {
-	grid-template:
-		"border title img" min-content
+	grid-template: "border title img" min-content
 		"border subtitle img" min-content
 		/ 40px auto auto;
 	column-gap: 120px;
@@ -465,8 +515,7 @@ section[data-layout-start]:after {
 /* Layout: End */
 
 [data-layout-end] {
-	grid-template:
-		"title title" max-content
+	grid-template: "title title" max-content
 		"links img" max-content
 		/ max-content auto;
 	gap: 120px;

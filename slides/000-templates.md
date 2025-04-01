@@ -71,6 +71,30 @@ Aliquam maximus odio sit amet purus tincidunt.
 
 ---
 
+![Hare](/hare.jpg)
+
+---
+
+<!-- .slide: data-background-image="/hare.jpg" data-background-color="var(--dark)" -->
+
+---
+
+<!-- .slide: data-layout-split -->
+
+### Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+![Hare](/hare.jpg)
+
+---
+
+<!-- .slide: data-layout-split -->
+
+![Hare](/hare.jpg)
+
+### Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
 <!-- .slide: data-background-image="/workshop.webp" data-background-color="var(--dark)" data-background-blend data-background-blur data-layout-profile -->
 
 # Marco<br>Otte-Witte
