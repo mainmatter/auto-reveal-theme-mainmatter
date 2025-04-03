@@ -79,7 +79,7 @@ Aliquam maximus odio sit amet purus tincidunt.
 
 ---
 
-<!-- .slide: data-layout-split -->
+<!-- .slide: data-layout-split-left -->
 
 ### Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -87,9 +87,21 @@ Aliquam maximus odio sit amet purus tincidunt.
 
 ---
 
-<!-- .slide: data-layout-split -->
+<!-- .slide: data-layout-split-right -->
 
 ![Hare](/hare.jpg)
+
+### Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
+<!-- .slide: data-layout-split-left data-background-image="/hare.jpg" -->
+
+### Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
+<!-- .slide: data-layout-split-right data-background-image="/hare.jpg" -->
 
 ### Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

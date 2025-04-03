@@ -435,32 +435,41 @@ section:has(>:only-child > img) img {
 
 /* Layout: Split */
 
-.reveal .slides .present[data-layout-split] {
+.reveal .slides .present[data-layout-split-left] {
 	padding-right: calc(50% + 40px);
 	padding-left: 0;
 }
 
-.reveal .slides .present[data-layout-split]:has(* + p>img:only-child) {
+.reveal .slides .present[data-layout-split-right] {
 	padding-left: calc(50% + 40px);
 	padding-right: 0;
 }
 
-[data-layout-split]:has(p>img:only-child) p:has(>img:only-child) {
+[data-layout-split-left] p:has(>img:only-child) {
 	position: absolute;
 	display: flex;
 	inset: 0 0 0 calc(50% + 40px);
 	margin: 0;
 }
 
-[data-layout-split]:has(* + p>img:only-child) p:has(>img:only-child) {
+[data-layout-split-right] p:has(>img:only-child) {
 	position: absolute;
 	display: flex;
 	inset: 0 calc(50% + 40px) 0 0;
 	margin: 0;
 }
 
-[data-layout-split]:has(p>img:only-child) p:has(>img:only-child) img {
+:is([data-layout-split-left], [data-layout-split-right]):has(p>img:only-child) p:has(>img:only-child) img {
 	box-shadow: none;
+}
+
+.reveal:has(.slides .present[data-layout-split-left]) .slide-background.present .slide-background-content {
+	left: 50%;
+	width: 50%;
+}
+
+.reveal:has(.slides .present[data-layout-split-right]) .slide-background.present .slide-background-content {
+	width: 50%;
 }
 
 /* Layout: Code */
