@@ -123,6 +123,10 @@ Mainmatter
 # Thank you all!
 
 - 🐘 [@mainmatter@fosstodon.social](https://fosstodon.social/@mainmatter)
-- [github.com/mainmatter](https://github.com/mainmatter)
+- ![GitHub](/github.svg#icon) [github.com/mainmatter](https://github.com/mainmatter)
 
 ![Chris](/hamster.jpg) <!-- .element class="face" -->
+
+Note:
+
+Add `#note` to the source url of an image to turn it into an inline icon sized to text height.

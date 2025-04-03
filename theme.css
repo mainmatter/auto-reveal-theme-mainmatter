@@ -342,6 +342,15 @@ section img {
 	color: var(--mid);
 }
 
+img[src$='#icon'] {
+	display: inline-block;
+	height: 1.3em;
+	width: auto;
+	padding: 0;
+	box-shadow: none;
+	vertical-align: middle;
+}
+
 section img.plain {
 	border: 0;
 	box-shadow: none;
