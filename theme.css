@@ -42,6 +42,7 @@
 
 .slides>section:not(:has(> section)),
 .slides>section:has(> section)>section {
+	position: relative;
 	--ss-scale: calc(1 / var(--slide-scale));
 
 	display: flex;
@@ -337,7 +338,6 @@ iframe {
 }
 
 section img {
-	background: rgb(255 255 255 / 12%);
 	box-shadow: 0 10px 40px -10px rgb(0 0 0 / 25%), 0 1px 5px -2px rgb(0 0 0 / 25%);
 	color: var(--mid);
 }
