@@ -1,36 +1,36 @@
 {
-	"name": "auto-reveal-theme-mainmatter",
-	"version": "0.1.2",
-	"description": "",
-	"keywords": [],
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:mainmatter/auto-reveal-theme-mainmatter.git"
-	},
-	"license": "ISC",
-	"author": "Chris Manson <chris@manson.ie>",
-	"type": "module",
-	"main": "theme.css",
-	"files": [
-		"fonts",
-		"images",
-		"styles",
-		"config.json",
-		"theme.css",
-		"README.md"
-	],
-	"scripts": {
-		"build": "auto-reveal build",
-		"start": "auto-reveal",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"dependencies": {
-		"@yukaii/github-highlightjs-themes": "^1.0.0"
-	},
-	"devDependencies": {
-		"auto-reveal": "^0.6.0",
-		"auto-reveal-theme-mainmatter": "link:.",
-		"release-plan": "^0.16.0"
-	},
-	"packageManager": "pnpm@9.5.0"
+  "name": "auto-reveal-theme-mainmatter",
+  "version": "0.1.2",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mainmatter/auto-reveal-theme-mainmatter.git"
+  },
+  "license": "ISC",
+  "author": "Chris Manson <chris@manson.ie>",
+  "type": "module",
+  "main": "theme.css",
+  "files": [
+    "fonts",
+    "images",
+    "styles",
+    "config.json",
+    "theme.css",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "auto-reveal build",
+    "start": "auto-reveal",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@yukaii/github-highlightjs-themes": "^1.0.0"
+  },
+  "devDependencies": {
+    "auto-reveal": "^0.6.0",
+    "auto-reveal-theme-mainmatter": "link:.",
+    "release-plan": "^0.16.0"
+  },
+  "packageManager": "pnpm@9.5.0"
 }
