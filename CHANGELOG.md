@@ -1,5 +1,21 @@
 # Changelog
 
+## Release (2025-04-28)
+
+* auto-reveal-theme-mainmatter 1.0.0 (major)
+
+#### :boom: Breaking Change
+* `auto-reveal-theme-mainmatter`
+  * [#17](https://github.com/mainmatter/auto-reveal-theme-mainmatter/pull/17) Update theme to match our current design language ([@pichfl](https://github.com/pichfl))
+
+#### :house: Internal
+* `auto-reveal-theme-mainmatter`
+  * [#18](https://github.com/mainmatter/auto-reveal-theme-mainmatter/pull/18) add an editorconfig to prevent incorrect spacing ([@mansona](https://github.com/mansona))
+
+#### Committers: 2
+- Chris Manson ([@mansona](https://github.com/mansona))
+- Florian Pichler ([@pichfl](https://github.com/pichfl))
+
 ## Release (2025-04-24)
 
 auto-reveal-theme-mainmatter 0.2.0 (minor)
