@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2025-07-02)
+
+* auto-reveal-theme-mainmatter 1.1.0 (minor)
+
+#### :rocket: Enhancement
+* `auto-reveal-theme-mainmatter`
+  * [#20](https://github.com/mainmatter/auto-reveal-theme-mainmatter/pull/20) Add optional static slide header ([@pichfl](https://github.com/pichfl))
+
+#### Committers: 1
+- Florian Pichler ([@pichfl](https://github.com/pichfl))
+
 ## Release (2025-04-28)
 
 * auto-reveal-theme-mainmatter 1.0.0 (major)
