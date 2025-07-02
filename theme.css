@@ -564,3 +564,29 @@ section:has(>:only-child > img) img {
 [data-layout-end] p:has(> img:only-child) {
 	display: contents;
 }
+
+/* Static slide header */
+
+[data-header] {
+  --block: calc(((var(--viewport-height) - var(--slide-height) * var(--slide-scale)) / -2) / var(--slide-scale));
+  --inline: calc(((var(--viewport-width) - var(--slide-width) * var(--slide-scale)) / -2) / var(--slide-scale));
+}
+
+[data-header]:before {
+  content: attr(data-header);
+  position: absolute;
+  inset: var(--block) var(--inline) auto;
+  background: var(--primary);
+  color: var(--white);
+  height: calc(60px / var(--slide-scale));
+  padding: calc(15px / var(--slide-scale)) calc(20px / var(--slide-scale));
+  text-align: left;
+  font-weight: bold;
+  z-index: 1;
+  font-size: calc(20px / var(--slide-scale));
+  line-height: calc(30px / var(--slide-scale))
+}
+
+:root:has(.present[data-header]){
+	--logo: #fff;
+}

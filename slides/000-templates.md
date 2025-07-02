@@ -6,6 +6,8 @@
 
 ---
 
+<!-- .slide: data-header="Static slide header" -->
+
 # First level
 
 ---
